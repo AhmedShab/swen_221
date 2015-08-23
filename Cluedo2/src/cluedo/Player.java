@@ -110,7 +110,7 @@ public class Player {
 	 * Gets the player's ID number (represented as a char)
 	 * @return The player's ID
 	 */
-	public char ID(){
+	public int ID(){
 		return number;
 	}
 	/**

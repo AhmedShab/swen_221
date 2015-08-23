@@ -249,10 +249,10 @@ public class Board {
 		for(int r = 0; r<board.length; r++){
 			squareWidth = 0;
 			for(int c=0; c < board[0].length; c++){
-				Player player = board[r][c].getPlayer();
-				if(player != null){
-					g.drawImage(player.getToken().getImage(),squareWidth,squareHieght,20,20,this); // 20 is square size for height and width.
-				}
+				//Player player = board[r][c].getPlayer();
+//				if(player != null){
+//					g.drawImage(player.getToken().getImage(),squareWidth,squareHieght,20,20,this); // 20 is square size for height and width.
+//				}
 				squareWidth += 20;
 			}
 			squareHieght +=20;
