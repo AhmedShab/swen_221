@@ -60,6 +60,8 @@ public class GameController {
 		this.setup.startGameLinstener(setUp);
 		this.setup.cancelLinstener(setUp);
 		gui.setBoardView(gameModel.getBoard(), maction);
+		
+		System.out.println("Test pull request");
 
 
 
